@@ -2,21 +2,34 @@
 <html>
 
 <head>
-    <title>Phaser Game</title>
-    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"> -->
+    <title>Deadpool</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
 
     <body>
         <div class="heading">
             <img src="assets/deadpool-symbol.jpg" class="logo">
         </div>
-        <div id="game">
-        </div>
-        <footer>This the footer</footer>
+        <section>
+            <div id="game"></div>
+            <div class="scoreboard">
+                <form>
+                    <fieldset>
+                        Yo name:
+                        <br>
+                        <input type="text" id="name">
+                        <br>
+                        <button id="add-order">Submit!</button>
+                    </fieldset>
+                </form>
+                <ul id="orders"></ul>
+            </div>
+        </section>
     </body>
     <script src="//cdn.jsdelivr.net/phaser/2.2.2/phaser.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
     <script type="text/javascript" src="main.js"></script>
-</head>
 
 </html>

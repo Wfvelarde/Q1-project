@@ -26,5 +26,44 @@ body {
 
 #game {
 	margin-left: 2em;
-	margin-top: 9em;
+	margin-top: 8em;
 }
+
+form {
+	display: flex;
+	background: #292929;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+}
+
+.scoreboard {
+	display: flex;
+	flex-direction: column;
+	margin-top: 8em;
+	padding-left: 1em;
+}
+
+#scores {
+	background: #C80002;
+	width: 100%;
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+#orders {
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
