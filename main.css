@@ -1,9 +1,6 @@
-#game {
-	margin: 0;
-}
 
 body {
-	background: url(assets/imagine.png) no-repeat center center fixed;
+	background: url(assets/imagine.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -11,13 +8,13 @@ body {
 }
 
 #game {
-	margin-left: 2em;
-	margin-top: 8em;
+	/*margin-left: 2em;*/
+	margin-top: 1.5em;
+	background-color: #FFFFFF; opacity: 0.9; filter: alpha(opacity=50);
 }
 
 form {
 	display: flex;
-	/*background: #292929;*/
 }
 
 section {
@@ -26,10 +23,10 @@ section {
 }
 
 .scoreboard {
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
 	margin-top: 8em;
-	padding-left: 1em;
+	margin-right: 12em;*/
 }
 
 #scores {
@@ -40,10 +37,16 @@ section {
 }
 
 #orders {
-	/*background: white;*/
+	list-style-type: none;
 }
 
+nav {
+	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+}
 
+footer {
+	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+}
 
 
 
