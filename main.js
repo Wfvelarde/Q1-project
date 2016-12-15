@@ -34,7 +34,7 @@ function getBoard(){
       dataType: "json",
       contentType: 'application/json',
       success: function(data, textStatus) {
-        console.log(data, textStatus)
+        console.log("hello")
       }
     });
   });

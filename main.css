@@ -3,25 +3,11 @@
 }
 
 body {
-	background: url(assets/comic-background.jpg) no-repeat center center fixed;
+	background: url(assets/imagine.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-.logo {
-	border-radius: 50%;
-	height: 5em;
-	width: 5em;
-	margin-top: 1em;
-	margin-bottom: 2em;
-	position: fixed;
-}
-
-.heading {
-	display: flex;
-	justify-content: center;
 }
 
 #game {
@@ -31,7 +17,7 @@ body {
 
 form {
 	display: flex;
-	background: #292929;
+	/*background: #292929;*/
 }
 
 section {
@@ -47,14 +33,14 @@ section {
 }
 
 #scores {
-	background: #C80002;
+	/*background: white;*/
 	width: 100%;
 	margin-top: 1em;
 	padding-top: 1em;
 }
 
 #orders {
-	background: red;
+	/*background: white;*/
 }
 
 
