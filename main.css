@@ -31,8 +31,24 @@ form {
 }
 
 #orders {
+	width: 12%;
 	list-style-type: none;
-	margin-right: 3em;
+	margin-right: 1em;
+	padding-left: 1em;
+	font-family: impact;
+	letter-spacing: 0.25em;
+	font-size: 1em;
+	margin-top: 1em;
+}
+
+ul {
+	color: white;
+	
+}
+
+li {
+	color: #673AB7;
+	font-size: 150%;
 }
 
 nav {
@@ -43,7 +59,13 @@ footer {
 	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
 }
 
+.name-input {
+	margin-top: 2em;
+}
 
+button {
+	margin-left: 0.75em;
+}
 
 
 

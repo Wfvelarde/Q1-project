@@ -1,15 +1,15 @@
 $(document).ready(function(){
 
   var $orders = $('#orders');
-  var $name = $('#first_name2');
-// console.log($name)
+  
+
 function getBoard(){
   $.ajax({
     type: 'GET',
     url: 'https://galvanize-leader-board.herokuapp.com/api/v1/leader-board/Space',
     success: function(orders) {
       $.each(orders, function(i, order) {
-        $orders.append('<li>'+ order.player_name + order.score + '</li>');
+        $orders.append('<li>'+ order.player_name + ' ' + order.score + '</li>');
       });
     },
     error: function() {
@@ -21,12 +21,14 @@ function getBoard(){
   $('#add-order').on('click', function() {
     event.preventDefault();
 
+    var $name = $('#first_name2').val();
     var order = {
       game_name: "Space",
       player_name: $name,
       score: score
     };
-// console.log($name);
+
+    console.log(order)
     $.ajax({
       type: "POST",
       url: "https://galvanize-leader-board.herokuapp.com/api/v1/leader-board",
