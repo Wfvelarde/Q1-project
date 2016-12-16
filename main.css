@@ -8,9 +8,10 @@ body {
 }
 
 #game {
-	/*margin-left: 2em;*/
 	margin-top: 1.5em;
-	background-color: #FFFFFF; opacity: 0.9; filter: alpha(opacity=50);
+	background-color: #FFFFFF; 
+	opacity: 0.9; 
+	filter: alpha(opacity=50);
 }
 
 form {
@@ -35,7 +36,7 @@ form {
 	list-style-type: none;
 	margin-right: 1em;
 	padding-left: 1em;
-	font-family: impact;
+	/*font-family: impact;*/
 	letter-spacing: 0.25em;
 	font-size: 1em;
 	margin-top: 1em;
@@ -43,20 +44,35 @@ form {
 
 ul {
 	color: white;
+	font-family: impact;
 	
 }
 
 li {
 	color: #673AB7;
-	font-size: 150%;
+	font-size: 125%;
+	font-family: Courier;
 }
 
 nav {
-	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+	background-color: #FFFFFF; 
+	opacity: 0.5; 
+	filter: alpha(opacity=50);
+}
+
+h4 {
+	text-align: center;
+	padding-top: 0.5em;
+	font-family: impact;
+	color: lightgrey;
+	letter-spacing: 0.15em;
 }
 
 footer {
-	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+	background-color: #FFFFFF; 
+	opacity: 0.5; 
+	filter: alpha(opacity=50);
+
 }
 
 .name-input {
@@ -66,6 +82,12 @@ footer {
 button {
 	margin-left: 0.75em;
 }
+
+.social-links a {
+	font-size: 3em;
+}
+
+
 
 
 
